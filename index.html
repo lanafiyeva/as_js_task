@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Letter matcher</title>
+  </head>
+
+  <body>
+    <section class="main">
+      <div class="content-wrapper">
+        <h1>Please choose a letter:</h1>
+
+        <div class="select-wrapper">
+          <select
+            class="select-letter"
+            id="select_letter"
+            onchange="onChange()"
+          >
+            <option>---</option>
+          </select>
+        </div>
+
+        <div id="filter-results" class="filter-results"></div>
+      </div>
+    </section>
+
+    <script src="list.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

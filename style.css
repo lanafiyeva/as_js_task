@@ -1,0 +1,12 @@
+.content-wrapper {
+  width: 50%;
+  margin: auto;
+}
+
+.filter-results {
+  margin-top: 20px;
+}
+
+.select-letter {
+  width: 120px;
+}
